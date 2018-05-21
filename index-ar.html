@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Iee3lan App">
+    <title>Iee3lan App</title>
+
+    <!--External Stylesheets css-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+    <!--Simple Line icons -->
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+    <!--Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Owl-carousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--Template Stylesheets css-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <script src="assets/js/modernizr.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #intro{background: url(assets/img/slide-sec.jpg)fixed;
+        background-size: cover}
+        .section-inner-intro {
+
+    background-color: rgba(42,123,243,.9)
+
+}
+        .navbar-collapse .navbar-right > li.active > a ,.navbar-collapse .navbar-right > li > a:hover{
+    border-bottom: 2px solid #fd9b06;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #fd9b06;
+}
+        .bg-color-blue {
+    background: url(assets/img/shot.jpg) fixed;
+            background-size: cover
+}
+
+
+.carousel-indicators li ,.carousel-indicators .active{
+
+        background-color: rgba(42,123,243,1)}
+        .carousel-indicators .active{border:1px solid #fd9b06;background-color: #fd9b06}
+        .block-ad{height:400px;border: 2px solid #f2f2f2 ;border-radius: 20px;padding: 10px}
+        .block-ad .img-ad{height: 200px ;width: 100%;border-radius: 20px}
+        .block-ad .img-ad img{height: 100%;width: 100%;border-radius: 20px}
+        .carousel-indicators {
+    bottom:-50px;
+}
+       .ar  .navbar-header{float: right}
+       .ar .navbar-collapse{float: left}
+
+        .ar .navbar-collapse li{float: right}
+       .ar  .navbar-default .navbar-collapse .navbar-nav > li:first-child {
+    margin-left: 20px;
+}
+        .ar .text-section{text-align: right}
+       .ar .icon-box, .ar .adv-txt {text-align: right}
+        .ar form,.ar form input{text-align: right}
+  .lang img{width: 20%;height: 20%;margin-top: -2px;}
+       .navbar-collapse .navbar-right > li:last-child > a:hover{
+    border-bottom: 0px;
+}
+        @font-face {
+    font-family: myFont;
+    src: url(assets/fonts/Cairo-Regular.ttf);
+
+}
+*,h2,h3,h1{
+    box-sizing: border-box;
+    font-family: "myFont" ;
+}
+
+    </style>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100" class="ar">
+
+    <!-- Page Preloader -->
+
+    <div id="loading-page">
+        <div id="loading-center-page">
+            <div id="loading-center-absolute">
+
+                <div class="loader"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--header-->
+
+    <div class="navbar navbar-default navbar-fixed-top affix-top" role="navigation" data-spy="affix" data-offset-top="50">
+
+        <div class="container">
+
+            <!--Mobile navigation & logo-->
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle dropdown-button waves-effect waves-teal btn-flat"
+                data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+
+            <a class="navbar-brand logo" href="#">
+
+                <img src="assets/img/logo.png" class="logo-light" alt="" title="">
+                <img src="assets/img/logo-dark.png" class="logo-dark" alt="" title="">
+
+
+            </a>
+        </div>
+
+        <!--Links navigation menu-->
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right navigation-links">
+                <li class="active active-link">
+                    <a data-scroll="" href="#intro" class="section-scroll">الرئيسية</a>
+                </li>
+
+
+                <li>
+                    <a data-scroll="" href="#app-about" class="section-scroll">عن اى اعلان   </a>
+                </li>
+
+                <li>
+                    <a data-scroll="" href="#scennshots" class="section-scroll"> التطبيق </a>
+                </li>
+<li>
+                    <a data-scroll="" href="#pricing" class="section-scroll"> اعلانتنا  </a>
+                </li>
+                <li>
+                    <a data-scroll="" href="#testimonials" class="section-scroll">قالو عنا </a>
+                </li>
+
+                <li>
+                    <a data-scroll="" href="#about" class="section-scroll">  اتصل بنا   </a>
+                </li>
+
+                <li>
+                    <a data-scroll="" href="#download" class="section-scroll">حمل التطبيق</a>
+                </li>
+                 <li>
+                    <a data-scroll="" href="index.html" class="section-scroll lang">
+                        <img  src="assets/img/en-flag.png" />
+                        </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<!--Intro-->
+
+<section id="intro" class="intro-section">
+<div class="sec-slider">
+    <div class="section-inner-intro xs-section-align sm-section-align">
+
+
+        <!--container-->
+        <div class="container">
+            <div class="row">
+
+
+                <div class="intro-section-content">
+
+                    <div class="col-md-offset-1 col-sm-5 col-md-4">
+
+                        <img src="assets/img/device-iphone-1.png" class="img-responsive hidden-xl wow flip" data-wow-duration="2s" data-wow-delay="1s" title="" alt="">
+
+                    </div>
+
+
+                    <div class="col-sm-7 col-md-5 col-md-offset-1 text-inner">
+                        <div class="text-section">
+                            <h1> ابدا فى استخدام تطبيق اى اعلان</h1>
+
+                            <p>ذلك هو تطبيق المحمول لإعلانات الصحف الذي يجعل من السهل على المستخدم لنشر له أو لها إعلانات في الصحف بسهولة هو تطبيق المحمول لإعلانات الصحف الذي يجعل من السهل على المستخدم لنشر له أو لها إعلانات في الصحف بسهولة </p>
+                                <a href="#download" class="btn btn-lg btn-link">تحميل </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--container-->
+    </section>
+
+    <!--End intro-->
+
+
+
+
+
+                                <!--ABOUT OUR APP-->
+
+
+                                <section id="app-about" class="padd-section">
+
+
+                                    <!--container-->
+
+                                    <div class="container">
+                                        <div class="row">
+
+                                         <div class="col-xs-12 col-md-6 col-sm-6 col-sm-push-6">
+
+                                            <div class="phone-screen">
+
+                                                <img class="phone-beyond app-phone-1 wow fadeInLeft" src="assets/img/phone-app-img1.png" data-wow-delay=".8s" alt=""
+                                                title="">
+                                                <img class="phone-above app-phone-2 wow fadeInLeft" src="assets/img/phone-app-img2.png" data-wow-delay=".4s" alt=""
+                                                title="">
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
+
+                                            <!-- Start title-section -->
+
+                                            <h2 class="section-title text-right margin-40">    عن اى اعلان </h2>
+
+                                            <!-- End title-section -->
+
+                                            <div class="app-text text-right mb-30">
+                                                <p>    اى اعلان هو التطبيق جيد  جدا، لديه  أكثر ميزة واحدة، يمكنك استخدامه  بسهولة</p>
+
+                                            </div>
+                                            <div class="row">
+
+
+                                                    <div class="icon-box">
+                                                        <div class="row">
+                                                            <div class="col-xs-2 col-xs-push-10">
+                                                        <div class="icon-box-icon">
+
+                                                            <i class="icon-check"></i>
+                                                            </div>
+                                                        </div>
+                                                          <div class="col-xs-10 col-xs-pull-2">
+                                                        <div class="icon-box-content">
+
+                                                           <h3>الرساله </h3>
+                                                           <p>ونحن نعمل على مواكبة رؤى وابتكارات عالم الدعاية كما نقدم لعملائنا بما يتناسب مع متطلباتهم وبما يتماشى مع رؤية 2030 </p>
+                                                            </div>
+                                                       </div>
+                                                        </div>
+                                                   </div>
+
+
+                                               </div>
+
+
+
+
+
+                                            <div class="icon-box">
+                                               <div class="row">
+                                                            <div class="col-xs-2 col-xs-push-10">
+                                                <div class="icon-box-icon">
+                                                    <i class="icon-eye"></i>
+                                                </div>
+                                                                </div>
+                                                   <div class="col-xs-10 col-xs-pull-2">
+                                                <div class="icon-box-content">
+                                                   <h3>الرؤية</h3>
+                                                   <p>العمل النشط والدقيق للوصول إلى القيادة من خلال توفير الخدمات الإعلانية تتجاوز التوقعات </p>
+                                               </div>
+                                                   </div>
+                                                </div>
+
+
+
+
+
+
+                                        <div class="icon-box">
+                                           <div class="row">
+                                           <div class="col-xs-2 col-xs-push-10">
+                                            <div class="icon-box-icon">
+                                                <i class="icon-trophy"></i>
+                                            </div>
+                                               </div>
+                                               <div class="col-xs-10 col-xs-pull-2">
+                                            <div class="icon-box-content">
+                                               <h3>الاهداف</h3>
+                                               <p>توفير الوقت والجهد للناس الذين يحتاجون إلى جعل الإعلان ورقة  </p>
+                                           </div>
+                                               </div>
+                                            </div>
+
+                                       </div>
+
+
+
+                               </div>
+
+
+
+
+
+                           </div>
+
+
+                       </div>
+
+                       <!--container-->
+
+                   </div>
+
+               </section>
+               <!--End ABOUT OUR APP-->
+               <!--Screenshots-->
+
+
+               <section id="scennshots" class="padd-section bg-color-blue ">
+
+                <!--container-->
+
+                <div class="container">
+                    <div class="row">
+
+                        <!-- Start title-section -->
+                        <div class="row-centered white-text">
+                            <div class="col-md-6 col-xs-12 col-sm-6 col-centered">
+
+                                <h2 class="section-title text-center white-text">تطبيق أى اعلان </h2>
+                                <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر</p>
+                                </div>
+                            </div>
+
+
+                            <!-- End title-section -->
+
+
+                            <div class="screenshot_slider margin-40 padd-50">
+                                <div class="item">
+                                    <a href="assets/img/screen1.png" class="popup-image">
+                                        <img src="assets/img/screen1.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen2.png" class="popup-image">
+                                        <img src="assets/img/screen2.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen3.png" class="popup-image">
+                                        <img src="assets/img/screen3.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen4.png" class="popup-image">
+                                        <img src="assets/img/screen4.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen5.png" class="popup-image">
+                                        <img src="assets/img/screen5.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen6.png" class="popup-image">
+                                        <img src="assets/img/screen6.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen7.png" class="popup-image">
+                                        <img src="assets/img/screen7.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen1.png" class="popup-image">
+                                        <img src="assets/img/screen1.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/img/screen2.png" class="popup-image">
+                                        <img src="assets/img/screen2.png" alt="" title="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--End Scrennshots-->
+
+
+                <!--Princing-->
+
+                <section id="pricing" class="padd-section ">
+
+
+                    <!--container-->
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Start title-section -->
+                            <div class="section-header">
+                                <div class="row-centered">
+                                    <div class="col-md-6 col-xs-12 col-sm-6 col-centered">
+
+                                        <h2 class="section-title text-center">  اعلانات اى اعلان</h2>
+                                        <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                                        هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End title-section -->
+
+                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+
+        <div class="row">
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                  <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                     <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                   <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                   <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+       <div class="item">
+
+       <div class="row">
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                   <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                     <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                   <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+       <div class="col-sm-3">
+              <div class="block-ad">
+                  <div class="img-ad">
+                      <img src="assets/img/team1.png">
+                  </div>
+                    <div class="adv-txt">
+                  <h3>
+                     عنوان الإعلان
+                  </h3>
+                      <p>
+                          هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر
+                          <a href="#about">   اتصل بنا</a>
+
+                      </p>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+                            </div>
+
+                            <!--container-->
+
+                        </div>
+
+                    </section>
+                    <!--End Pricing-->
+
+                    <!--Testimonials -->
+
+
+                    <section id="testimonials" class="padd-section bg-color-blue ">
+
+                        <!--container-->
+
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Start title-section -->
+
+                                <div class="row-centered white-text">
+                                    <div class="col-md-6 col-xs-12 col-sm-6 col-centered">
+
+                                        <h2 class="section-title text-center white-text">اراء عملائنا فى اى اعلان </h2>
+                                        <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row-centered ">
+                                        <div class="col-md-7 col-xs-12 col-sm-7 col-centered wow fadeInUp">
+
+                                            <div class="testimonial-caroussel">
+
+
+                                                <div class="item">
+
+                                                    <div class="item-content">
+
+                                                        <div class="header-item-content ">
+                                                            <img src="assets/img/img1.jpg" class="img-responsive img-circle" alt="" title="">
+
+                                                            <div class="header-text-item clearfix">
+                                                                <h3>  جون محمد</h3>
+                                                                <span>23, ابريل 2017</span>
+
+                                                            </div>
+
+                                                            <div class="bottom-text-item">
+                                                                <p>
+                                                                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
+                                                                </p>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="item">
+
+                                                    <div class="item-content">
+
+                                                        <div class="header-item-content">
+                                                            <img src="assets/img/img2.jpg" class="img-responsive img-circle" alt="" title="">
+
+                                                            <div class="header-text-item clearfix">
+                                                                <h3>  الكسندر مصطفى</h3>
+                                                                <span>23, ابريل 2017</span>
+
+                                                            </div>
+
+                                                            <div class="bottom-text-item">
+                                                                <p>
+                                                                    هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
+                                                                </p>
+
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <!--Testimonials -->
+
+
+                      <!--contact-->
+
+
+                                <section id="about" class="padd-section bg-color-section">
+
+
+                                    <!--container-->
+
+                                    <div class="container">
+                                        <div class="row">
+
+
+                                            <div class="col-xs-12 col-sm-6 col-md-6 col-sm-push-6">
+
+                                                <!-- Start title-section -->
+                                                <div class="section-header">
+                                                    <h2 class="section-title text-left margin-40">  تواصل معنا</h2>
+                                                </div>
+                                                <!-- End title-section -->
+
+                                                <div class="tabs-inner">
+                                                      <form>
+                                                          <div class="form-group">
+    <label for="Name" >     الاسم بالكامل</label>
+    <input type="text" class="form-control" placeholder="  الاسم بالكامل" id="text" required>
+  </div>
+  <div class="form-group">
+    <label for="email">   عنوان البريد الالكترونى</label>
+    <input type="email" class="form-control" id="email" placeholder="  البريد الالكترونى" required>
+  </div>
+  <div class="form-group">
+    <label for="tel">   رقم الجوال </label>
+    <input type="tel" class="form-control" id="tel" placeholder="  رقم الجوال" required>
+  </div>
+  <div class="form-group">
+            <label for="tel">  اكتب رسالتك</label>
+            <textarea required  class="form-control"  rows="3" id="messageTxt" spellcheck="true" placeholder="  الرساله"></textarea>
+                                                          
+     </div>
+  <button type="submit" class="btn btn-primary">ارسل رسالتك</button>
+</form>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col-xs-12 col-md-6 col-sm-6 col-sm-pull-6">
+
+                                                <div class="phone-screen">
+                                                    <img class="phone-above wow fadeInLeft" src="assets/img/phone-img2.png" data-wow-delay=".4s" alt=""
+                                                    title="">
+                                                    <img class="phone-beyond wow fadeInLeft" src="assets/img/phone-img1.png" data-wow-delay=".8s" alt=""
+                                                    title="">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!--container-->
+
+                                    </div>
+
+                                </section>
+                                <!--End contact-->
+
+
+                    <!--Downlaod -->
+
+                    <section id="download" class="padd-section padd-bottom">
+
+                        <!--container-->
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Start title-section -->
+                                <div class="row-centered">
+                                    <div class="col-md-6 col-xs-12 col-sm-6 col-centered ">
+
+                                        <div class="download-content">
+                                            <h2>  احصل على التطبيق الان </h2>
+                                            <h3>   ابدا معنا فى تحميل التطبيق </h3>
+                                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة </p>
+
+                                                <div class="btn-download-content">
+
+                                                    <a href="#" class="btn-downlaod"><img src="assets/img/store-app.png" alt="" title=""> </a>
+                                                    <a href="#" class="btn-downlaod"><img src="assets/img/play-app.png" alt="" title=""> </a>
+                                                </div>
+
+
+                                                <img src="assets/img/device3.png"  class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s" alt=""  title="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!--Downlaod  -->
+
+                        <!--Footer -->
+
+                        <footer>
+
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="footer-top">
+
+                                        <!-- Start title-section -->
+                                        <div class="row-centered">
+                                            <div class="col-md-6 col-xs-12 col-sm-6 col-centered ">
+
+                                                <ul class="list-social list-inline">
+                                                    <li><a href="#" target="_blank" class="btn btn-circle btn-facebook"><i
+                                                        class="icon-social-facebook"></i></a></li>
+                                                        <li><a href="#" target="_blank" class="btn btn-circle  btn-twitter"><i
+                                                            class="icon-social-twitter"></i></a></li>
+                                                            <li><a href="#" target="_blank" class="btn btn-circle  btn-google-plus"><i
+                                                                class="icon-social-google"></i></a></li>
+
+
+                                                                </ul>
+                                                                <p>اشترك معنا ليصلك كل ماهو جديد عنا والاخبار الجديده</p>
+
+                                                                <!-- Newsletter -->
+
+                                                                <div class="subscribe-form">
+
+                                                                    <form action="#" method="post" class="subscribe-mail">
+                                                                        <div class="input-group">
+                                                                            <input type="email" class="form-control email-input" placeholder="ادخل البريد الالكترونى">
+                                                                            <span class="input-group-addon">
+                                                                             <input type="submit" class="btn btn-subscribe" value="اشترك">
+                                                                         </span>
+
+
+                                                                     </div>
+                                                                     <p class="error-message"></p>
+                                                                     <p class="sucess-message"></p>
+
+                                                                 </form>
+                                                             </div>
+                                                             <!-- Newsletter -->
+
+                                                         </div>
+
+
+                                                     </div>
+
+                                                 </div>
+
+                                                 <div class="footer-bottom">
+                                                    <!-- COPYRIGHT TEXT -->
+
+                                                    <div class="copyright">
+                                                        <p>جميع الحقق محفوظه لاى اعلان تم التصميم والتطوير بواسطه <a href="http://www.tatweers.com/ar">تطوير</a></p>
+                                                    </div>
+                                                    <!-- COPYRIGHT TEXT -->
+
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </footer>
+
+
+                                    <!--Footer -->
+
+
+                                    <!-- jQuery -->
+                                    <script src="assets/js/jquery-1.12.4.min.js"></script>
+
+                                    <!-- Bootstrap Plugins -->
+                                    <script src="assets/js/bootstrap.min.js"></script>
+
+                                    <!-- Template Plugins -->
+                                    <script src="assets/js/jquery.easing.js"></script>
+                                    <script src="assets/js/wow.min.js"></script>
+                                    <script src="assets/js/owl.carousel.min.js"></script>
+                                    <script src="assets/js/magnific-popup.min.js"></script>
+                                    <script src="assets/js/jquery.scrollUp.min.js"></script>
+                                    <script src="assets/js/wow.min.js"></script>
+                                    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+                                    <!-- Main js -->
+                                    <script src="assets/js/main.js"></script>
+                                </body>
